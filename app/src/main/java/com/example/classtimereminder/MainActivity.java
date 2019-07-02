@@ -104,6 +104,7 @@ public class MainActivity extends AppCompatActivity
         layoutHolder = (LinearLayout) findViewById(R.id.linearLayoutContent);
     }
 
+    /**
 //    @Override
     public void onClick(View view) {
         switch (view.getId()) {
@@ -128,6 +129,8 @@ public class MainActivity extends AppCompatActivity
                 break;
         }
     }
+
+    */
 
     private void showLayoutHolder() {
         layoutHolder.removeAllViews();//Remove all View from layout
